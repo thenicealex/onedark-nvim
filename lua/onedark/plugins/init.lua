@@ -4,6 +4,11 @@ local name = {
 	"tabufline",
 	"nvim-treesitter",
 	"rainbow-delimiters",
+	"nvim-cmp",
+	"telescope",
+	"notice",
+	"mason",
+	"dropbar",
 }
 local M = {}
 

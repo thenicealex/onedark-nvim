@@ -38,7 +38,7 @@ function M.groups(theme)
 		LineNrNC = {}, -- LineNr for inactive windows
 
 		Pmenu = { bg = theme.extra.black1 }, -- Popup menu: normal item.
-		PmenuSel = { fg = theme.default_colors.blue, bg = theme.extra.black1 }, -- Popup menu: selected item.
+		PmenuSel = { bg = theme.default_colors.blue, fg = theme.extra.black1 }, -- Popup menu: selected item.
 		PmenuSbar = { bg = theme.extra.black1 }, -- Popup menu: scrollbar.
 		PmenuThumb = { bg = theme.extra.black1 }, -- Popup menu: Thumb of the scrollbar.
 
