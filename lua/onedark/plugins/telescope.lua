@@ -10,6 +10,7 @@ function M.groups(theme)
 		TelescopeBorder = { fg = theme.extra.white3, bg = theme.extra.black1 },
 		TelescopePromptPrefix = { fg = theme.default_colors.red, bg = theme.extra.black1, },
 		TelescopePreviewLine = { fg = theme.extra.darker_black, bg = theme.default_colors.blue, },
+		TelescopeFileBrowIcon = { fg = theme.default_colors.blue, },
 	}
 end
 

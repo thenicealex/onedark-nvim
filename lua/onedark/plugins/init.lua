@@ -9,6 +9,7 @@ local name = {
 	"notice",
 	"mason",
 	"dropbar",
+	"lsp",
 }
 local M = {}
 
