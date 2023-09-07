@@ -10,7 +10,6 @@ function M.groups(theme)
 		DiagnosticSignWarn = {fg = theme.default_colors.yellow},
 		DiagnosticSignHint = {fg = theme.default_colors.purple},
 		DiagnosticSignInfo = {fg = theme.default_colors.blue},
-
 	}
 end
 
