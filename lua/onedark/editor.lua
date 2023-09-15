@@ -15,7 +15,7 @@ function M.groups(theme)
 		Cursor = { fg = theme.extra.bg, bg = theme.default_colors.white }, -- character under the cursor
 		-- CursorLine = { bg = "#7e7d76" }, -- Screen-line at the cursor, when 'cursorline' is set.
 		CursorLine = { bg = theme.extra.white1 }, -- Screen-line at the cursor, when 'cursorline' is set.
-		CursorLineNr = { fg = theme.default_colors.white }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
+		CursorLineNr = { fg = theme.default_colors.red }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
 		CursorLineNrNC = {}, -- CursorLineNr for inactive windows
 		Folded = { bg = theme.extra.white2 }, -- line used for closed folds
 		FoldedNC = {}, -- Folded for inactive windows
@@ -49,7 +49,8 @@ function M.groups(theme)
 		StatusLine = { bg = theme.extra.black1, fg = theme.default_colors.white, bold = true }, -- status line of current window
 		StatusLineNC = {}, -- status lines of not-current windows Note: if this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
 
-		Visual = { reverse = true }, -- Visual mode selection
+		-- Visual = { reverse = true }, -- Visual mode selection
+		Visual = { bg = "#515a6b", reverse = true }, -- Visual mode selection
 		VisualNOS = { link = "Visual" }, -- Visual mode selection when vim is "Not Owning the Selection".
 
 		Search = { fg = theme.extra.black1, bg = theme.default_colors.yellow }, -- Last search pattern highlighting (see 'hlsearch').  Also used for similar items that need to stand out.

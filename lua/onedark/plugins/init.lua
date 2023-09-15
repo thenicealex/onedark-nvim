@@ -10,6 +10,7 @@ local name = {
 	"mason",
 	"dropbar",
 	"lsp",
+	"lazy",
 }
 local M = {}
 
